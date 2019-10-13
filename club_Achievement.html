@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<style type="text/css">
+
+		li {list-style: none;}
+		a {text-decoration: none;}
+
+		header{height: 70px; background-color: #0f2d51; border: 1px solid #253342;
+			position: fixed; width: 100%; z-index: 9999; top: 0; left:0;}
+		h1{color: white; line-height: 50px; float: left;}
+		.menu{float: right;}
+		.menu li{float: left;}
+		.menu a{line-height: 50px; color: white; padding: 0 15px; display: block;}
+		.wrapper{width: 1400px; margin: 0 auto;}
+		.clearfix{content: ''; display: block; clear: both;}
+
+		.menu li ul {display: none; height: auto; position: absolute; z-index: 1;}
+		.menu li li {margin: 0; width:100%;}
+		.menu li:hover ul {display: block; position: absolute; background-color:#0f2d51; border-radius: 10px; padding-left:0; width:8%;
+				font-size: 12px;}
+		.menu li a:hover {color:#ffd000; background-color: #183968; border-radius: 10px;}
+
+		body {background-color: #e0e0e0; z-index: 0; margin: 0;}
+
+		.footer {position: relative; top: 200px; z-index: 100;
+			width: 100%; height: 40px; background-color: #b5b4a3;}
+		.footer {text-align: center; letter-spacing: 30px; margin-bottom: 10px;}
+		footer {bottom: 10px;}
+
+		article {margin: 0;}
+		.FirstPage {content: url(bg4.jpg); width: 100%; z-index: 0;
+			position: relative; top: 70px;}
+
+		.inPageMenu {height: 40px; background-color: #0f2d51; border: 1px solid #253342;
+				position: relative; width: 100%; z-index: 3; top: 70px; left: 0;}
+		.tabMenu {width: 100%; margin: 0 auto; text-align: center; line-height: 10px}
+		.subMenu li {display: inline;}
+		.subMenu a{line-height: 10px; color: white; padding: 0px 10%; display: inline-block;}
+		.subMenu li:hover {background-color: #2e4250; border-radius: 10px;}
+		.subMenu li a:hover {color: #ffd000;}
+
+		.honorsText {text-align: left; width: 60%; z-index: 3; top: 100px; position: relative; padding-left: 20%;}
+		.honorsText ul li {list-style-type: disc; height: 50px; font-weight: lighter}
+		.honorsText ul strong {font-weight: 550;}
+		h3 {font-size: 30px; font-weight: bolder;}
+		h4 {font-weight: lighter;}
+		h3:after {content: ""; display: block; width: 50px; border-bottom: 4px solid #69aec6; padding-bottom: 15px;}
+		.source {font-size: 12px; font-weight: lighter; text-align: right;}
+
+	</style> 
+</head>
+
+<body>
+<header>
+	<div class="wrapper">
+		<h1>TOTTENHAM HOTSPUR</h1>
+		<nav>
+			<ul class="menu">
+				<li><a href="tottenham.html">Home</a></li>
+				<li><a href="teams_Match.html">Teams</a>
+					<ul class="teams">
+						<li><a href="teams_Match.html">Match</a></li>
+						<li><a href="teams_Players.html">Players</a></li>
+						<li><a href="teams_CoachingStaff.html">Coaching Staff</a></li>
+					</ul>
+				</li>
+				<li><a href="club_History.html" style="color: #ffd000">The Club</a>
+					<ul class="club">
+						<li><a href="club_History.html">History</a></li>
+						<li><a href="club_Achievement.html" style="color: #ffd000">Achievement</a></li>
+						<li><a href="club_Partners.html">Partners</a></li>
+					</ul>
+				</li>
+				<li><a href="stadium_Stadium.html">The Stadium</a>
+					<ul class="stadium">
+						<li><a href="stadium_Stadium.html">The Stadium</a></li>
+						<li><a href="stadium_History.html">History</a></li>
+						<li><a href="stadium_Location.html">Location</a></li>
+					</ul>
+				</li>
+				<li><a href="fixtures_Fixtures.html">Fixtures</a>
+					<ul class="fixtures">
+						<li><a href="fixtures_Fixtures.html">Fixtures</a></li>
+						<li><a href="fixtures_LeagueTable.html">League Table</a></li>
+					</ul>
+				</li>
+			</ul>
+		</nav>
+	</div>	
+</header>
+
+<article>
+	<div class="FirstPage">
+	</div>
+
+	<div class="inPageMenu">
+		<div class="tabMenu">
+			<ul class="subMenu">
+				<li><a href="club_History.html">History</a></li>
+				<li style="border-top: 2px solid #ffd000"><a href="club_Achievement.html"  style="color: #ffd000">
+				Achievement</a></li>
+				<li><a href="club_Partners.html">Partners</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="honorsText">
+		<p><h3>Major Honors</h3></br></p>
+		<ul class="majorHonors">
+			<li><strong>Football League Champions:</strong> 1950/1951, 1960/1961</li>
+			<li><strong>The FA Cup Winners:</strong> 1900/1901, 1920/1921, 1960/1961, 1961/1962, 1966/1967, 1980/1981, 1981/1982, 1990/1991</li>
+			<li><strong>Football League Cup Winners:</strong> 1970/1971, 1972/1973, 1998/1999, 2007/2008</li>
+			<li><strong>European Cup-Winners Cup Winners:</strong> 1962/1963</li>
+			<li><strong>UEFA Cup Winners:</strong> 1971/1972, 1983/1984</li>
+			<li><strong>Football League Division Two Champions:</strong> 1919/1920, 1949/1950</li>
+			<li><strong>FA Charity Shield Winners:</strong> 1920/1921, 1951/1952, 1961/1962, 1962/1963, 1967/1968 (joint), 1981/1982 (joint), 1991/1992 (joint)</li>
+		</ul>
+
+		<p><h3></br></br>Other Honors</h3></br></p>
+		<ul class="OtherHonors">
+			<li><strong>Southern League Champions:</strong> 1899/1900</li>
+			<li><strong>Western League Champions:</strong> 1903/1904</li>
+			<li><strong>London League Premier Division Champions:</strong> 1902/1903</li>
+			<li><strong>Football League South 'C' Division Champions:</strong> 1939/1940</li>
+			<li><strong>Football League South Champions:</strong> 1943/1944, 1944/1945</li>
+			<li><strong>Southern District Charity Cup Winners:</strong> 1901/1902, 1904/1905 (joint), 1906/1907</li>
+			<li><strong>Dewar Shield Winners:</strong> 1901/1902, 1933/1934</li>
+			<li><strong>London Challenge Cup Winners:</strong> 1910/1911, 1928/1929</li>
+			<li><strong>Anglo-Italian League Cup-Winners Cup Winners:</strong> 1971/1972</li>
+			<li><strong>Norwich Charity Cup Winners:</strong> 1919/1920</li>
+			<li><strong>Norwich Hospital Charity Cup Winners:</strong> 1946/1947, 1949/1950 (joint)</li>
+			<li><strong>Ipswich Hospital Charity Cup Winners:</strong> 1951/1952 (joint)</li>
+			<li><strong>Costa Del Sol Tournament Winners:</strong> 1965, 1966</li>
+			<li><strong>Nolia Cup (Sweden) Winners:</strong> 1977</li>
+			<li><strong>Japan Cup Winners:</strong> 1979</li>
+			<li><strong>Sun International Challenge Trophy (Swaziland) Winners:</strong> 1983</li>
+			<li><strong>Peace Cup (Korea) Winners:</strong> 2005</li>
+			<li><strong>Vodacom Challenge (South Africa) Winners:</strong> 2007</li>
+			<li><strong>Feyenoord Jubileum Tournament (Holland) Winners:</strong> 2008</li>
+			<li><strong>Barclays Asia Trophy (China) Winners:</strong> 2009</li>
+		</ul>
+
+		</br></br>
+		<p class="source">-TOTTENHAM-</p>
+	</div>
+	
+</article>
+
+<footer>
+<div class="footer">
+	<a href="https://ko-kr.facebook.com/TottenhamHotspur/" target="_blank">
+	<img src="facebook1.png" alt="facebook" width="40px" height="40px" align="center"><a>
+	<a href="https://www.instagram.com/spursofficial/?hl=ko" target="_blank">
+	<img src="instagram1.png" alt="instagram" width="40px" height="40px" align="center"></a>
+	<a href="https://twitter.com/spursofficial" target="_blank">
+	<img src="twitter1.png" alt="twitter" width="40px" height="40px" align="center"></a>
+	<a href="https://www.youtube.com/channel/UCEg25rdRZXg32iwai6N6l0w" target="_blank">
+	<img src="youtube1.png" alt="youtube" width="40px" height="40px" align="center"></a>
+</div>
+</footer>
+
+</body>
+</html>

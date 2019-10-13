@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<style type="text/css">
+
+		li {list-style: none;}
+		a {text-decoration: none;}
+
+		header{height: 70px; background-color: #0f2d51; border: 1px solid #253342;
+			position: fixed; width: 100%; z-index: 9999; top: 0; left:0;}
+		h1{color: white; line-height: 50px; float: left;}
+		.menu{float: right;}
+		.menu li{float: left;}
+		.menu a{line-height: 50px; color: white; padding: 0 15px; display: block;}
+		.wrapper{width: 1400px; margin: 0 auto;}
+		.clearfix{content: ''; display: block; clear: both;}
+
+		.menu li ul {display: none; height: auto; position: absolute; z-index: 1;}
+		.menu li li {margin: 0; width:100%;}
+		.menu li:hover ul {display: block; position: absolute; background-color:#0f2d51; border-radius: 10px; padding-left:0; width:8%;
+				font-size: 12px;}
+		.menu li a:hover {color:#ffd000; background-color: #183968; border-radius: 10px;}
+
+		body {background-color: #e0e0e0; z-index: 0; margin: 0;}
+
+		.footer {position: relative; top: 200px; z-index: 100;
+			width: 100%; height: 40px; background-color: #b5b4a3}
+		.footer {text-align: center; letter-spacing: 30px; margin-bottom: 10px;}
+		footer {bottom: 10px;}
+
+		article {margin: 0; text-align: center; width: 100%; position: relative;}
+		.FirstPage {content: url(bg3.jpg); width: 100%; z-index: 0;
+			position: relative; top: 70px;}
+
+		.inPageMenu {height: 40px; background-color: #0f2d51; border: 1px solid #253342;
+				position: relative; width: 100%; z-index: 3; top: 70px; left: 0;}
+		.tabMenu {width: 100%; margin: 0 auto; text-align: center; line-height: 10px}
+		.subMenu li {display: inline;}
+		.subMenu a{line-height: 10px; color: white; padding: 0px 10%; display: inline-block;}
+		.subMenu li:hover {background-color: #b5b4a3; border-radius: 10px;}
+		.subMenu li a:hover {color: #ffd000;}
+
+		.manager {width: 75%; text-align: center; position: relative;
+			top: 100px; margin-left: 12.5%;}
+		.manager a {display:inline-block; padding: 20px; margin: 10px;
+			border: 10px solid #0f2d51; border-radius: 30px;}
+		.coachInfo {line-height: 5px;}
+		.manager a:hover {border-bottom: 10px solid #ffd000;}
+
+		.coaching {width: 75%; text-align: center; position: relative;
+			top: 100px; margin-left: 12.5%;}
+		.coaching a {display:inline-block; padding: 20px; margin: 10px;
+			border: 10px solid #0f2d51; border-radius: 30px;}
+		.coaching a:hover {border-bottom: 10px solid #ffd000;}
+
+		.managerName {top: 100px; position: relative; text-align: left; padding-left: 250px;
+			width: 50%; font-size: 30px; height: 100px;}
+		.coachName {top: 200px; position: relative; text-align: left; padding-left: 250px;
+			width: 50%; font-size: 30px; height: 200px;}
+		.managerName:after { content: ""; display: block; width: 40px;
+				border-bottom: 3px solid #008c87; padding-bottom: 5px;}
+		.coachName:after { content: ""; display: block; width: 40px;
+				border-bottom: 3px solid #008c87; padding-bottom: 5px;}
+
+	</style> 
+</head>
+
+<body>
+<header>
+	<div class="wrapper">
+		<h1>TOTTENHAM HOTSPUR</h1>
+		<nav>
+			<ul class="menu">
+				<li><a href="tottenham.html">Home</a></li>
+				<li><a href="teams_Match.html" style="color: #ffd000">Teams</a>
+					<ul class="teams">
+						<li><a href="teams_Match.html">Match</a></li>
+						<li><a href="teams_Players.html">Players</a></li>
+						<li><a href="teams_CoachingStaff.html" style="color: #ffd000">Coaching Staff</a></li>
+					</ul>
+				</li>
+				<li><a href="club_History.html">The Club</a>
+					<ul class="club">
+						<li><a href="club_History.html">History</a></li>
+						<li><a href="club_Achievement.html">Achievement</a></li>
+						<li><a href="club_Partners.html">Partners</a></li>
+					</ul>
+				</li>
+				<li><a href="stadium_Stadium.html">The Stadium</a>
+					<ul class="stadium">
+						<li><a href="stadium_Stadium.html">The Stadium</a></li>
+						<li><a href="stadium_History.html">History</a></li>
+						<li><a href="stadium_Location.html">Location</a></li>
+					</ul>
+				</li>
+				<li><a href="fixtures_Fixtures.html">Fixtures</a>
+					<ul class="fixtures">
+						<li><a href="fixtures_Fixtures.html">Fixtures</a></li>
+						<li><a href="fixtures_LeagueTable.html">League Table</a></li>
+					</ul>
+				</li>
+			</ul>
+		</nav>
+	</div>	
+</header>
+
+<article>
+	<div class="FirstPage">
+	</div>
+
+	<div class="inPageMenu">
+		<div class="tabMenu">
+			<ul class="subMenu">
+				<li><a href="teams_Match.html">Match</a></li>
+				<li><a href="teams_Players.html">
+				Players</a></li>
+				<li style="border-top: 2px solid #ffd000">
+				<a href="teams_CoachingStaff.html" style="color: #ffd000">Coaching Staff</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="managerName">Manager</div>
+	<div class="manager">
+		<a class="manager1" href="#" style="color: black">
+			<div class="coachPhoto">
+				<img src="manager.png" alt: "manager" width="250px">
+			</div>
+			<div class="coachInfo">
+				<p><h3>Mauricio Pochettino</h3></p>
+				Murphy,  Argentina
+			</div>
+		</a>
+	</div>
+
+	<div class="coachName">Coaching</div>
+	<div class="coaching">
+		<a class="coach1" href="#" style="color: black">
+			<div class="coachPhoto">
+				<img src="coach1.png" alt:"coach1" width="250px">
+			</div>
+			<div class="coachInfo">
+				<p><h3>Jesus Perez</h3></p>
+				Spain
+			</div>
+		</a>
+
+		<a class="coach2" href="#" style="color: black">
+			<div class="coachPhoto">
+				<img src="coach2.png" alt:"coach2" width="250px">
+			</div>
+			<div class="coachInfo">
+				<p><h3>Miguel D'Agostino</h3></p>
+				Parana, Argentina
+			</div>
+		</a>
+
+		<a class="coach3" href="#" style="color: black">
+			<div class="coachPhoto">
+				<img src="coach3.png" alt:"coach3" width="250px">
+			</div>
+			<div class="coachInfo">
+				<p><h3>Toni Jimenez</h3></p>
+				La Garriga, Spain
+			</div>
+		</a>
+
+	</div>
+
+</article>
+
+<footer>
+<div class="footer">
+	<a href="https://ko-kr.facebook.com/TottenhamHotspur/" target="_blank">
+	<img src="facebook1.png" alt="facebook" width="40px" height="40px" align="center"><a>
+	<a href="https://www.instagram.com/spursofficial/?hl=ko" target="_blank">
+	<img src="instagram1.png" alt="instagram" width="40px" height="40px" align="center"></a>
+	<a href="https://twitter.com/spursofficial" target="_blank">
+	<img src="twitter1.png" alt="twitter" width="40px" height="40px" align="center"></a>
+	<a href="https://www.youtube.com/channel/UCEg25rdRZXg32iwai6N6l0w" target="_blank">
+	<img src="youtube1.png" alt="youtube" width="40px" height="40px" align="center"></a>
+</div>
+</footer>
+
+</body>
+</html>
